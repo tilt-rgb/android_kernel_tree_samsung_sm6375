@@ -121,6 +121,6 @@ obj-$(CONFIG_TOUCHSCREEN_IQS5XX)	+= iqs5xx.o
 #obj-$(CONFIG_TOUCHSCREEN_SYNAPTICS_DSX) += synaptics_dsx/
 #obj-$(CONFIG_TOUCHSCREEN_NT36XXX)	+= nt36xxx/
 obj-$(CONFIG_TOUCHSCREEN_FTS)	+= focaltech_touch_spi/
-obj-$(CONFIG_TOUCHSCREEN_CHIPONE_ICNL9958R)	+= chipone_tddi_spi/
+obj-$(CONFIG_TOUCHSCREEN_CHIPONE_ICNL9951R)	+= chipone_tddi_spi/
 obj-$(CONFIG_TOUCHSCREEN_HIMAX_CHIPSET)	+= himax_hx83102j_spi/
 obj-$(CONFIG_TOUCHSCREEN_JADARD_CHIPSET)	+= jdchipset/

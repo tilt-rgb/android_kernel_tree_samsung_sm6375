@@ -1036,8 +1036,8 @@ msm_get_lcd_tp_info(struct device *dev,
 		strncpy(lcd_tp_info, "starry", strlen("starry"));
 	}else if(strstr(saved_command_line,"hx83102j_lide") != NULL){
 		strncpy(lcd_tp_info, "lide", strlen("lide"));
-	}else if(strstr(saved_command_line,"icnl9958r_boe") != NULL){
-		strncpy(lcd_tp_info, "icnl9958r", strlen("icnl9958r"));
+	}else if(strstr(saved_command_line,"icnl9951r_boe") != NULL){
+		strncpy(lcd_tp_info, "icnl9951r", strlen("icnl9951r"));
 	}else if(strstr(saved_command_line,"ft8203_dsbj") != NULL){
 		strncpy(lcd_tp_info, "dsbj", strlen("dsbj"));
 	}else if(strstr(saved_command_line,"icnl9951r_hjr") != NULL){

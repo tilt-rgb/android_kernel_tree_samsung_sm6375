@@ -1,6 +1,6 @@
 # Makefile for the chipone touchscreen drivers.
 
-obj-$(CONFIG_TOUCHSCREEN_CHIPONE_ICNL9958R) += icnl9951r.o
+obj-$(CONFIG_TOUCHSCREEN_CHIPONE_ICNL9951R) += icnl9951r.o
 
 icnl9951r-y := cts_driver.o
 icnl9951r-y += cts_core.o

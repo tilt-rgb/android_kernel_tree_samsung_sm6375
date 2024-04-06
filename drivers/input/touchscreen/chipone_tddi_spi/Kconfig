@@ -2,7 +2,7 @@
 # CHIPONE Touchscreen driver configuration
 #
 
-config TOUCHSCREEN_CHIPONE_ICNL9958R
+config TOUCHSCREEN_CHIPONE_ICNL9951R
     tristate "CHIPONE Touchscreen"
     default m
     help
