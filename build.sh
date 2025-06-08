@@ -62,7 +62,7 @@ echo "Done copying modules into modulebuild."
 # AnyKernel3 Support
 cp -nf $(pwd)/kernelbuild/Image $(pwd)/AnyKernel3
 cp -nr $(pwd)/modulebuild/*.ko $(pwd)/AnyKernel3/modules/system/lib/modules
-cd AnyKernel3 && zip -r9 UPDATE-AnyKernel3-gta9.zip * -x .git README.md *placeholder
+cd AnyKernel3 && zip -r9 KernelSU-Next-1.0.7-gta9p * -x .git README.md *placeholder
 
 # Cleanups
 echo "Cleaning out/ directory..."

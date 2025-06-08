@@ -4,7 +4,7 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=ExampleKernel by osm0sis @ xda-developers
+kernel.string=KernelSU-Next Tab A9+ by rgb_tilt
 do.devicecheck=1
 do.modules=0
 do.systemless=1
